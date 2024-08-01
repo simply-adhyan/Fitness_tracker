@@ -1,0 +1,35 @@
+/* src/styles/Navigation.module.css */
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff; /* Default link color */
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.nav a.active {
+  color: #007bff; /* Active link color */
+}
+
+.nav a.active::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #007bff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,79 @@
+/* src/styles/SignUp.module.css */
+
+/* Container for the SignUp form */
+.signUpContainer {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+/* Header for the form */
+.signUpHeader {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Styling for form elements */
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formGroup input:focus {
+  border-color: #333;
+  outline: none;
+}
+
+/* Styling for the submit button */
+.submitButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.submitButton:hover {
+  background-color: #555;
+}
+
+/* Link styling for form actions (e.g., "Already have an account?" link) */
+.formActionLink {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.formActionLink:hover {
+  text-decoration: underline;
+}
+.errorMessage{
+  display: flex;
+  align-self: center;
+  color: red;
+  font-size: 6;
+  
+}
